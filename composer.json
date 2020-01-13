@@ -1,0 +1,21 @@
+{
+    "name": "bruce/first",
+    "description": "This is a test program",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bruce Peng",
+            "email": "pengpaoge@outlook.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bruce\\First\\": "src/Bruce/First"
+        }
+    }
+}
